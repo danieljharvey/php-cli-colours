@@ -1,0 +1,20 @@
+{
+    "name": "danieljharvey/php-cli-colours",
+    "description": "A small library for using colours in CLI scripts",
+    "type": "library",
+    "license": "MIT",
+	"version":"1.0.0",
+    "authors": [
+        {
+            "name": "Daniel Harvey",
+            "email": "danieljamesharvey@gmail.com"
+        }
+    ],
+    "require": {}
+	,
+	"autoload": {
+		"psr-4": {
+			"DanielJHarvey\\CLIColours\\": "src/"
+		}
+	}
+}
