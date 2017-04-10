@@ -1,5 +1,7 @@
 <?php
 
+namespace DanielJHarvey\CLIColours;
+
 class BashColours {
 	
 	protected $foreground=[
