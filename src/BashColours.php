@@ -86,6 +86,64 @@ class BashColours {
 
 	}
 
+	public function black($string) {
+		return $this->formatString($string,'black');
+	}
 
+	public function red($string) {
+		return $this->formatString($string,'red');
+	}
+
+	public function green($string) {
+		return $this->formatString($string,'green');
+	}
+
+	public function yellow($string) {
+		return $this->formatString($string,'yellow');
+	}
+
+	public function blue($string) {
+		return $this->formatString($string,'blue');
+	}
+
+	public function magenta($string) {
+		return $this->formatString($string,'magenta');
+	}
+
+	public function cyan($string) {
+		return $this->formatString($string,'cyan');
+	}
+
+	public function lightGray($string) {
+		return $this->formatString($string,'lightGray');
+	}
+
+	public function darkGray($string) {
+		return $this->formatString($string, 'darkGray');
+	}
+
+	public function lightRed($string) {
+		return $this->formatString($string,'lightRed');
+	}
+
+	public function lightGreen($string) {
+		return $this->formatString($string,'lightGreen');
+	}
+
+	public function lightYellow($string) {
+		return $this->formatString($string,'lightYellow');
+	}
+
+	public function lightBlue($string) {
+		return $this->formatString($string,'lightBlue');
+	}
+
+	public function lightMagenta($string) {
+		return $this->formatString($string,'lightMagenta');
+	}
+
+	public function white($string) {
+		return $this->formatString($string,'white');
+	}
 
 }

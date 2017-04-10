@@ -10,3 +10,18 @@ echo "I am writing a nice CLI script and ".$bashColours->formatString("BANG!", '
 
 echo $bashColours->formatString("But now everything is fine and stuff",'default','green');
 ~~~~
+
+Or now you can change forecolor with a big heap of shortcut functions:
+
+~~~~
+include 'BashColours.php';
+$colour=new BashColours();
+
+echo $colour->red("red")." and ".$colour->yellow("yellow")." and ".$colour->lightMagenta("pink")." and ".$colour->green("green")."...\n";
+~~~~
+
+The full set of foreground and background colors from this list are implemented:
+
+http://misc.flogisoft.com/bash/tip_colors_and_formatting
+
+Will consider adding bold/italic/blink etc later.
