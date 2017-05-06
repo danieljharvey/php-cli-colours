@@ -147,5 +147,9 @@ class BashColours {
 	public function white($string) {
 		return $this->formatString($string,'white');
 	}
-
+	
+	public function random($string) {
+		$key=array_rand($this->foreground);
+		return $this->formatString($string,$key);
+	}
 }
