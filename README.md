@@ -4,7 +4,7 @@ I like my CLI scripts to be colourful and with this library I hope to achieve sa
 Example usage
 ~~~~
 include 'BashColours.php';
-$bashColours=new BashColours();
+$bashColours=new \DanielJHarvey\CLIColours\BashColours();
 
 echo "I am writing a nice CLI script and ".$bashColours->formatString("BANG!", 'red')." I need exciting things to happen\n";
 
@@ -15,7 +15,7 @@ Or now you can change forecolor with a big heap of shortcut functions:
 
 ~~~~
 include 'BashColours.php';
-$colour=new BashColours();
+$colour=new \DanielJHarvey\CLIColours\BashColours();
 
 echo $colour->red("red")." and ".$colour->yellow("yellow")." and ".$colour->lightMagenta("pink")." and ".$colour->green("green")."...\n";
 ~~~~
